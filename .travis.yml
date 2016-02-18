@@ -5,9 +5,7 @@ branches:
  - master
  
 xcode_project: TravisTest.xcodeproj
-xcode_scheme: TravisTestUITests
-osx_image: osx_image: xcode7.2
-xcode_sdk: iphonesimulator8.3 
+xcode_scheme: TravisTest
+osx_image: xcode7.2
+xcode_sdk: iphonesimulator9.2
  
-script:
-- xcodebuild clean build test -project TravisTest.xcodeproj -scheme TravisTestUITests
