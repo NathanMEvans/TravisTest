@@ -10,7 +10,7 @@ osx_image: xcode7.2
 xcode_sdk: iphonesimulator9.2
  
 script:
-  - xctool -project TravisTest.xcodeproj -scheme TravisTest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-  - xctool test -project TravisTest.xcodeproj -scheme TravisTestTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-  - xctool test -project TravisTest.xcodeproj -scheme TravisTestUITests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -project TravisTest.xcodeproj -scheme TravisTest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild test -project TravisTest.xcodeproj -scheme TravisTestTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild test -project TravisTest.xcodeproj -scheme TravisTestUITests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
