@@ -1,8 +1,8 @@
 language: objective-c
- 
-branches:
- only:
- - master
+
+before_install:
+  - brew update
+  - brew upgrade xctool
  
 xcode_project: TravisTest.xcodeproj
 xcode_scheme: TravisTest
