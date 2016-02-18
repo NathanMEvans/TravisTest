@@ -33,6 +33,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		98FC1EDE1C75E0A400F252A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				98FC1EE01C75E19700F252A2 /* TravisTest.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		98F728B01C75BE3E0067D83A /* TravisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F728B31C75BE3E0067D83A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +183,7 @@
 				98F728CB1C75BE3E0067D83A /* Sources */,
 				98F728CC1C75BE3E0067D83A /* Frameworks */,
 				98F728CD1C75BE3E0067D83A /* Resources */,
+				98FC1EDE1C75E0A400F252A2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
