@@ -9,5 +9,3 @@ xcode_scheme: TravisTest
 osx_image: osx_image: xcode7.2
 xcode_sdk: iphonesimulator8.3 
  
-script:
-- xcodebuild clean build test -project TravisTest.xcodeproj -scheme TravisTestUITests
