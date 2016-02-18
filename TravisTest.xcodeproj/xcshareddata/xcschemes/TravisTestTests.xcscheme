@@ -16,22 +16,13 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98F728CE1C75BE3E0067D83A"
-               BuildableName = "TravisTestUITests.xctest"
-               BlueprintName = "TravisTestUITests"
+               BlueprintIdentifier = "98F728C31C75BE3E0067D83A"
+               BuildableName = "TravisTestTests.xctest"
+               BlueprintName = "TravisTestTests"
                ReferencedContainer = "container:TravisTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "98F728AF1C75BE3E0067D83A"
-            BuildableName = "TravisTest.app"
-            BlueprintName = "TravisTest"
-            ReferencedContainer = "container:TravisTest.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

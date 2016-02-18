@@ -475,7 +475,7 @@
 				98F728D71C75BE3E0067D83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		98F728D81C75BE3E0067D83A /* Build configuration list for PBXNativeTarget "TravisTest" */ = {
 			isa = XCConfigurationList;
@@ -484,7 +484,7 @@
 				98F728DA1C75BE3E0067D83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		98F728DB1C75BE3E0067D83A /* Build configuration list for PBXNativeTarget "TravisTestTests" */ = {
 			isa = XCConfigurationList;
@@ -493,7 +493,7 @@
 				98F728DD1C75BE3E0067D83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		98F728DE1C75BE3E0067D83A /* Build configuration list for PBXNativeTarget "TravisTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,7 +502,7 @@
 				98F728E01C75BE3E0067D83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
