@@ -1,8 +1,5 @@
 language: objective-c
- 
-branches:
- only:
- - master
+
  
 xcode_project: TravisTest.xcodeproj
 xcode_scheme: TravisTest
