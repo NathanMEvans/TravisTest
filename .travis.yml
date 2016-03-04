@@ -1,10 +1,4 @@
 language: objective-c
 
-xcode_project: TravisTest.xcodeproj
-xcode_scheme: TravisTest
-osx_image: xcode7.2
-xcode_sdk: iphonesimulator9.2
-xcode_destination: 'platform=iOS Simulator,name=iPhone 6,OS=9.2' 
-
 script:
   - xcodebuild -project TravisTest.xcodeproj  -scheme TravisTest -sdk iphonesimulator9.2 -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2' test
