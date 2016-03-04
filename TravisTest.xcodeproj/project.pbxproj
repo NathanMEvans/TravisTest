@@ -40,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				98FC1EE01C75E19700F252A2 /* TravisTest.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
